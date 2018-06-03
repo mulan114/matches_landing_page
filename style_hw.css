@@ -30,7 +30,6 @@ h1 {
 
 .col {
 	text-align: center;
-	justify-content: center;
 }
 
 .btn {
@@ -41,5 +40,7 @@ h1 {
 
 .btn:hover {
 	transform: scale(1.2);
+	border-color: black;
+	color: black;
 
 }
