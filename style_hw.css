@@ -1,0 +1,44 @@
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("matches.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	color: yellow;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.col {
+	text-align: center;
+}
+
+.btn {
+	transition: transform 1s;
+	border-color: black;
+	color: black;
+}
+
+.btn:hover {
+	transform: scale(1.2);
+
+}
